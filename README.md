@@ -26,4 +26,27 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-First, use `run.sh` to prepare the audio segments.
+> *Here we provide 2 audios from DIHARD3 dataset as an example*
+
+1. Data preparation  
+Replace the `{ROOTDIR}` in `data/dihard3_dev/wav.scp` with your absolute path to this repository. Use `run.sh` to prepare the audio segments. All the audio segments are saved under `subsegments/` folder, located under `data/dihard3_dev/` folder. `dihard3_dev/` folder will be created under `exp/` folder as well.
+
+```
+DH_DEV_0001 {ROOTDIR}/online_diarization/data/dihard3_dev/example_wav/DH_DEV_0001.wav
+```
+
+2. Generate speaker labels in an online fashion  
+The `--verbose` and `--verbose-time` options enable you to record the labels and time, which are saved as `output.log` and `times/` respectively under `exp/` folder.
+
+```
+python online_diarization.py --verbose --verbose-time
+```
+
+3. Computing DERs
+```
+dscore/score.py -r data/dihard3_dev/rttm -s exp/dihard3_dev/rttm
+```
+or  
+```
+dscore/scorelib/md-eval.pl -r data/dihard3_dev/rttm -s exp/dihard3_dev/rttm
+```
