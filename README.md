@@ -50,3 +50,6 @@ or
 ```
 dscore/scorelib/md-eval.pl -r data/dihard3_dev/rttm -s exp/dihard3_dev/rttm
 ```
+
+## Acknowledgements
+We borrow some codes from kaldi.
