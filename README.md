@@ -1,6 +1,6 @@
 # online_speaker_diarization
 
-[Online Speaker Diarization with Graph-based Label Generation](https://arxiv.org/abs/2111.13803)  
+[Low-Latency Online Speaker Diarization with Graph-based Label Generation](https://arxiv.org/abs/2111.13803)  
 by Yucong Zhang, Qinjian Lin, Weiqing Wang, Lin Yang, Xuyang Wang, Junjie Wang, Ming Li
 
 > This paper introduces an online speaker diarization system that can handle long-time audio with low latency. First, a new variant of ag-glomerative hierarchy clustering is built to cluster the speakers in an online fashion. Then, a speaker embedding graph is proposed. We use this graph to exploit a graph-based reclustering method to fur-ther improve the performance. Finally, a label matching algorithm is introduced to generate consistent speaker labels, and we evalu-ate our system on both DIHARD3 and VoxConverse datasets, which contain long audios with various kinds of scenarios. The experi-mental results show that our online diarization system outperforms the baseline ofﬂine system and has comparable performance to our ofﬂine system.
