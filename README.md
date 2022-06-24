@@ -7,11 +7,13 @@ by Yucong Zhang, Qinjian Lin, Weiqing Wang, Lin Yang, Xuyang Wang, Junjie Wang, 
 
 ## Citation
 ```bitex
-@article{zhang2021online,
-  title={Online Speaker Diarization with Graph-based Label Generation},
-  author={Zhang, Yucong and Lin, Qinjian and Wang, Weiqing and Yang, Lin and Wang, Xuyang and Wang, Junjie and Li, Ming},
-  journal={arXiv preprint arXiv:2111.13803},
-  year={2021}
+@inproceedings{zhang22_odyssey,
+  author={Yucong Zhang and Qinjian Lin and Weiqing Wang and Lin Yang and Xuyang Wang and Junjie Wang and Ming Li},
+  title={{Low-Latency Online Speaker Diarization with Graph-Based Label Generation}},
+  year=2022,
+  booktitle={Proc. The Speaker and Language Recognition Workshop (Odyssey 2022)},
+  pages={162--169},
+  doi={10.21437/Odyssey.2022-23}
 }
 ```
 
