@@ -1,2 +1,2 @@
-DH_DEV_0001 {ROOTDIR}/online_diarization/data/dihard3_dev/example_wav/DH_DEV_0001.wav
-DH_DEV_0002 {ROOTDIR}/online_diarization/data/dihard3_dev/example_wav/DH_DEV_0002.wav
+DH_DEV_0001 {ROOTDIR}/online_speaker_diarization/data/dihard3_dev/example_wav/DH_DEV_0001.wav
+DH_DEV_0002 {ROOTDIR}/online_speaker_diarization/data/dihard3_dev/example_wav/DH_DEV_0002.wav

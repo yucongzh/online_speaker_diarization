@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Replace the `{ROOTDIR}` in `data/dihard3_dev/wav.scp` with your absolute path to this repository. Use `run.sh` to prepare the audio segments. All the audio segments are saved under `subsegments/` folder, located under `data/dihard3_dev/` folder. `dihard3_dev/` folder will be created under `exp/` folder as well.
 
 ```
-DH_DEV_0001 {ROOTDIR}/online_diarization/data/dihard3_dev/example_wav/DH_DEV_0001.wav
+DH_DEV_0001 {ROOTDIR}/online_speaker_diarization/data/dihard3_dev/example_wav/DH_DEV_0001.wav
 ```
 
 2. Generate speaker labels in an online fashion  
