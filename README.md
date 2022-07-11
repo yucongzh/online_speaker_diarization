@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-> *You can obtain the dihard3 data according to the instructions in [dihard3_baseline](https://github.com/dihardchallenge/dihard3_baseline#expected-results), including the `rttm` file and `segments` file*
+> *You can obtain the dihard3 data according to the instructions in [dihard3_baseline](https://github.com/dihardchallenge/dihard3_baseline#expected-results), including the `rttm` file and `segments` file*  
 > *Then, you can put `rttm` and `segments` files under data/dihard3_dev/*
 
 1. Data preparation  
