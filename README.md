@@ -28,7 +28,8 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-> *You can obtain the dihard3 data according to the instructions in [dihard3_baseline](https://github.com/dihardchallenge/dihard3_baseline#expected-results)*
+> *You can obtain the dihard3 data according to the instructions in [dihard3_baseline](https://github.com/dihardchallenge/dihard3_baseline#expected-results), including the `rttm` file and `segments` file*
+> *Then, you can put `rttm` and `segments` files under data/dihard3_dev/*
 
 1. Data preparation  
 Replace the `{ROOTDIR}` in `data/dihard3_dev/wav.scp` with your absolute path to this repository. Use `run.sh` to prepare the audio segments. All the audio segments are saved under `subsegments/` folder, located under `data/dihard3_dev/` folder. `dihard3_dev/` folder will be created under `exp/` folder as well.
